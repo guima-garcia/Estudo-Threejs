@@ -1,0 +1,49 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    background: #ffeded;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.section
+{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+    color: #1e1a20;
+    text-transform: uppercase;
+    font-size: 7vmin;
+    padding-left: 10%;
+    padding-right: 10%;
+    will-change: transform;
+}
+
+section:nth-child(odd)
+{
+    justify-content: flex-end;
+}
+
+a
+{
+    text-decoration: none;
+    color: #1e1a20;
+}
+
+a:hover
+{
+    color: #F2594B;
+}
